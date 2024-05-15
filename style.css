@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.character {
+    text-align: center;
+    cursor: pointer;
+}
+
+.character img {
+    width: 150px;
+    height: 150px;
+    transition: transform 0.2s;
+}
+
+.character p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.character:hover img {
+    transform: scale(1.1);
+}
